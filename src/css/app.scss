@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "sans";
+  src: url("fonts/iran-sans.ttf");
+}
+
+.sans {
+  font-family: "sans";
+}
+
+body {
+  background-color: var(--q-color-fourtiary);
+}
+
+* {
+  // font-family: "sans";
+  font-family: "tahoma";
+}

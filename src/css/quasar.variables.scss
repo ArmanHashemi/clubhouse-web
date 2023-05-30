@@ -1,0 +1,80 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary   : #14532D;
+$secondary : #FFFFFF;
+$accent    : #343741; // light background
+$tertiary  : #71717A;
+$fourtiary : #F5F5F5; //text colors
+$reverse : #18181B;
+$primaryl : #E7E5E4;
+
+// $accent    : rgba(52, 234, 223, 0.5);
+$dark      : #1D1D1D;
+
+$positive  : #5DB075;
+$negative  : #EF4444;
+$info      : #47A40F;
+$warning   : #EF4444;
+
+
+$alarm     : #EF4444;
+:root{
+  --q-color-tertiary : $tertiary;
+  --q-color-fourtiary : $fourtiary;
+  --q-color-reverse : $reverse;
+  --q-color-alarm : $alarm;
+  --q-color-primaryl : $primaryl;
+
+  .bg-tertiary{
+    background: var(--q-color-tertiary) !important
+  }
+  .text-tertiary{
+    color: var(--q-color-tertiary) !important;
+  }
+
+  .bg-fourtiary{
+    background: var(--q-color-fourtiary) !important
+  }
+  .text-fourtiary{
+    color: var(--q-color-fourtiary) !important;
+  }
+
+  .bg-reverse{
+    background: var(--q-color-reverse) !important
+  }
+  .text-reverse{
+    color: var(--q-color-reverse) !important;
+  }
+
+  .bg-alarm{
+    background: var(--q-color-alarm) !important
+  }
+  .text-alarm{
+    color: var(--q-color-alarm)  !important;
+  }
+
+  .bg-primaryl{
+    background: var(--q-color-primaryl) !important
+  }
+  .text-primaryl{
+    color: var(--q-color-primaryl)  !important;
+  }
+}
+
+.q-field__focusable-action {
+  color: var(--q-color-reverse) !important;
+}
+
+
